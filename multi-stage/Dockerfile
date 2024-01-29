@@ -1,3 +1,4 @@
+#Taken from: https://docs.docker.com/engine/reference/commandline/image_build/
 FROM golang:1.21
 WORKDIR /src
 COPY <<EOF ./main.go
